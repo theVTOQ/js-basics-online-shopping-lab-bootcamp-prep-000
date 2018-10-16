@@ -32,7 +32,7 @@ function viewCart() {
     var name = cart[i].itemName;
     var price = cart[i].itemPrice;
     string += `${name} at $${price}`;
-    var punctuation = (i == length - 1) ? "." : ",";
+    var punctuation = (i == length - 1) ? "." : ", ";
     string += punctuation
   }
   return string
