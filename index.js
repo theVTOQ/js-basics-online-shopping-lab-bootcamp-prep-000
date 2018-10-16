@@ -29,7 +29,7 @@ function viewCart() {
     if(i == length - 1 && i !== 0){
       string += "and "
     }
-    string += `${cart[i].itemName} + at $${cart[i].itemPrice}`;
+    string += `${cart}[i].itemName + at $${cart}[i].itemPrice}`;
     var punctuation = (i == length - 1) ? "." : ",";
     string += punctuation
   }
