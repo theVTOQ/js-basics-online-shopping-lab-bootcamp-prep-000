@@ -35,6 +35,7 @@ function viewCart() {
     var punctuation = (i == length - 1) ? "." : ",";
     string += punctuation
   }
+  return string
 }
 
 function total() {
