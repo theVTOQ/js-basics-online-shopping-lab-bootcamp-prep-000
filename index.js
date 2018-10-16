@@ -28,7 +28,7 @@ function viewCart() {
       string += "and "
     }
     string += `${cart[i].itemName} + at $${cart[i].itemPrice}`;
-    punctuation = (i == length - 1) ? "." : ",";
+    var punctuation = (i == length - 1) ? "." : ",";
     string += punctuation
   }
 }
