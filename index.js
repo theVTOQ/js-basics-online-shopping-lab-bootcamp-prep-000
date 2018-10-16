@@ -60,5 +60,5 @@ function placeOrder(cardNumber) {
   }
   
   var total = total();
-  cart.splice()
+  cart.splice(0, cart.length)
 }
